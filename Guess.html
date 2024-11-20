@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="icon" href="https://i.pinimg.com/474x/99/d9/23/99d9239aafdc5dd180eeae9bc30dcc6a.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="welcome" id="welcome">
+        <h1>Welcome to the Number Guessing Game!</h1>
+        <button id="start">Click Here To Start The Game</button>
+    </div>
+    
+    <div class="container" id="game" style="display: none;">
+        <h1>Guess The Number</h1>
+        <p>Pick the number between 1 and 100</p>
+        <input type="number" id="inp" placeholder="Enter your guess" min="1" max="100">
+        <button id="submit">Submit</button>
+        <button id="reset" style="display:none;">Reset</button>
+        <p id="Message"></p>
+        <p>Attempts: <span id="Attempts">0</span></p>
+    </div>
+    <canvas id="confetti" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; display: none;"></canvas>
+    <script src="https://cdn.jsdelivr.net/npm/confetti-js@0.0.18/dist/index.min.js"></script>
+    <script src="logic.js"></script>
+</body>
+</html>
