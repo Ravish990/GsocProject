@@ -9,7 +9,7 @@ Technology:-
      Html css and javascript used in the Game.
 
 Set up:-
-   Its simple, Make 3 files one of Html and other of css and last of javascript. Paste the respective code and and go live on the browser.
+   Its simple, Make 3 files one of Html and other of css and last of javascript. Paste the respective code and go live on the browser.
     
 ![Screenshot 2024-11-25 153635](https://github.com/user-attachments/assets/0fbe1485-cff7-4fa5-9f13-f75f9d5ec064)
 This is the First Look of the Game.
