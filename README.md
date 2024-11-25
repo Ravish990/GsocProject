@@ -1,6 +1,6 @@
 Number Guessing Game's Features :- 
    In this game you have guess number between 1 to 100 and computer choose the number and you have to guess the number.
-   It is user freindly and great interactive user face.
+   It is user freindly and great interactive user interface.
 
 How to Play:-
       You have to start the Game by clicking on "Click Here To Start The Game".
